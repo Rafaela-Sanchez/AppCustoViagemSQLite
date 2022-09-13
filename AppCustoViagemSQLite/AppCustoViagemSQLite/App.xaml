@@ -23,7 +23,7 @@
 
 
             <Style x:Key="BotoesAcao" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#eae5e4" />
+                <Setter Property="BackgroundColor" Value="#eae5e9" />
                 <Setter Property="BorderColor" Value="Gray" />
                 <Setter Property="BorderWidth" Value="1" />
                 <Setter Property="CornerRadius" Value="10" />

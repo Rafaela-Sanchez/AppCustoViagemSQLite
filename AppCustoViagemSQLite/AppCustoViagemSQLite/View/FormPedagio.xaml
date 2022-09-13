@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCustoViagemSQLite.View.FormPedagio"
+             Title="Cadastro de um Pedagio"
+             BackgroundColor="#eae5e1">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Salvar" Clicked="ToolBarItem_Salvar"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Valor do Pedágio: " 
+                   FontSize="Medium" 
+                   TextColor="#bf6f4e"
+                   HorizontalOptions="Fill"/>
+            <Entry x:Name="txt_descricao"/>
+
+            <Label Text="Cidade em que se encontra: "
+                   FontSize="Medium" 
+                   TextColor="#bf6f4e"/>
+            <Entry x:Name="txt_quantidade"/>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>
